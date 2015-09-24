@@ -33,4 +33,6 @@ public class ListenerCollector {
     public void setListener(View view, MyListener listener) {
         sListeners.put(view, listener);
     }
+
+    public static void clearListeners() { sListeners.clear(); }
 }
